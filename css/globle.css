@@ -1,0 +1,38 @@
+:root {
+    --main-color: #4d8b55;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Sansita Swashed", "cursive";
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#About,
+#Menu {
+    background-image: url("../images/leaves_pattern.png");
+    background-repeat: repeat;
+    background-color: var(--main-color);
+}
+
+#title .text {
+    font-size: 40px;
+}
