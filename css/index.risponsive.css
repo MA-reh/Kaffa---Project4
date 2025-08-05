@@ -114,6 +114,13 @@
         font-size: 40px;
     }
 
+
+
+    footer p {
+        font-size: 13px;
+    }
+
+
 }
 
 @media (min-width: 371px) and (max-width: 1300px) {
@@ -127,6 +134,10 @@
 
     #Menu .slider-swap .content .spacial-card .box {
         width: 70%;
+    }
+
+    #Menu .slider-swap .content .spacial-card img {
+        width: 80%;
     }
 
     #BeansCoffee .content h2 {
@@ -146,11 +157,13 @@
         margin-top: 10px;
     }
 
-
+    footer p {
+        font-size: initial;
+    }
 
 }
 
-@media (min-width: 577px) and (max-width: 1300px) {
+@media (min-width: 576px) and (max-width: 1300px) {
     header nav.navbar .container img.img-fluid {
         max-width: 80%;
     }
@@ -160,7 +173,15 @@
         font-size: 40px !important;
     }
 
+    #Menu .slider-swap .content {
+        margin-bottom: 20px;
+    }
+
     #Menu .slider-swap .content .spacial-card .box {
+        width: 100%;
+    }
+
+    #Menu .slider-swap .content .spacial-card img {
         width: 100%;
     }
 

@@ -23,7 +23,9 @@ header nav.navbar .container button {
     flex-direction: column;
     align-items: center;
     width: 52px;
-    height: 42px;
+    height: 40px;
+    transition-duration: 0.5s;
+    transition-property: all;
     display: none;
 }
 
